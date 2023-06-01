@@ -7,6 +7,7 @@ import {
 } from "firebase/auth";
 import googleIcon from "../assets/googleIcon.jpg";
 
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
